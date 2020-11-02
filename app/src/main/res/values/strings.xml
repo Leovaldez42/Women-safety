@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Safety</string>
     <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="by_leo_valdez">By Leo Valdez</string>
+    <string name="_2020">2020</string>
+    <string name="add">ADD</string>
+    <string name="delete">DELETE</string>
+    <string name="view">VIEW</string>
+    <string name="to_delete_a_number_enter_a_number_and_press_delete_button">TO DELETE A NUMBER ENTER A NUMBER AND PRESS DELETE BUTTON</string>
+    <string name="add_contacts">ADD CONTACTS</string>
+    <string name="emergency">EMERGENCY</string>
+    <string name="logo_picture">Logo picture</string>
 </resources>

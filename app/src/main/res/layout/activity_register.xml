@@ -30,27 +30,27 @@
             android:layout_width="wrap_content"
             android:layout_margin="20dp"
             android:layout_height="50dp"
-            android:text="ADD"/>
+            android:text="@string/add"/>
 
         <Button
             android:id="@+id/reg_btn_del"
             android:layout_width="wrap_content"
             android:layout_margin="20dp"
             android:layout_height="50dp"
-            android:text="DELETE"/>
+            android:text="@string/delete"/>
 
         <Button
             android:id="@+id/reg_btn_view"
             android:layout_width="wrap_content"
             android:layout_margin="20dp"
             android:layout_height="50dp"
-            android:text="VIEW"/>
+            android:text="@string/view"/>
     </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="TO DELETE A NUMBER ENTER A NUMBER AND PRESS DELETE BUTTON"
+        android:text="@string/to_delete_a_number_enter_a_number_and_press_delete_button"
         android:textAlignment="center"/>
 
     <ListView
