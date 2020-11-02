@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <EditText
+            android:id="@+id/reg_editxt_phone"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="65dp"
+            android:hint="@string/enter_phone_number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <Button
+            android:id="@+id/reg_btn_add"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_height="50dp"
+            android:text="ADD"/>
+
+        <Button
+            android:id="@+id/reg_btn_del"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_height="50dp"
+            android:text="DELETE"/>
+
+        <Button
+            android:id="@+id/reg_btn_view"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_height="50dp"
+            android:text="VIEW"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="TO DELETE A NUMBER ENTER A NUMBER AND PRESS DELETE BUTTON"
+        android:textAlignment="center"/>
+
+    <ListView
+        android:id="@+id/reg_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>
